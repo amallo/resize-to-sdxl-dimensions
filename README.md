@@ -1,5 +1,5 @@
 
-The "Resize Image SDXL" node is an extension to the conventional "Image Resize" node, that resize image to
+The "Resize Image SDXL" node is an invokeAi (https://github.com/invoke-ai/InvokeAI) extension to the conventional "Image Resize" node, that resize image to
 the nearest allowed dimensions compatible with Stable Diffusion XL.
 
 * 1024 x 1024
