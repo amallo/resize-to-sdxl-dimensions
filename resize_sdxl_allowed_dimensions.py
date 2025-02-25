@@ -20,7 +20,7 @@ class ResizeImageForSDXLInvocation(BaseInvocation):
     image: ImageField = InputField(default=None, description="Image to be resize")
    
 
-    def resize_to_allowed_dimensions(width, height):
+    def resize_to_allowed_dimensions(self, width, height):
         """
         Function re-used from Lucataco's implementation of SDXL-Controlnet for Replicate
         """
