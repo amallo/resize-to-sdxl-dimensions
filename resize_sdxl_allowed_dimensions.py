@@ -3,9 +3,17 @@ from invokeai.invocation_api import (
     InputField,
     InvocationContext,
     ImageField,
-    ImageOutput
+    ImageOutput,
+    invocation
 )
 
+@invocation(
+    "image_resize_sdxl",
+    title="Image Resize For SDXL",
+    tags=["image", "resize", "sdxl"],
+    category="image",
+    version="1.0.0",
+)
 
 class ResizeImageForSDXLInvocation(BaseInvocation):
     """Resizes an image to SDXL allowed dimensions"""
