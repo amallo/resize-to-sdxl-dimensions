@@ -7,7 +7,7 @@ from invokeai.invocation_api import (
 )
 
 
-class ResizeImagePlusInvocation(BaseInvocation):
+class ResizeImageForSDXLInvocation(BaseInvocation):
     """Resizes an image to SDXL allowed dimensions"""
     image: ImageField = InputField(default=None, description="Image to be resize")
    
